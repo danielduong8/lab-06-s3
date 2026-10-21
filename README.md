@@ -1,7 +1,7 @@
 ## My S3 buckets
 
 - Public bucket index: https://public-jdp5ub.s3.amazonaws.com/index.html
-- Presigned book from my private bucket (7-day expiry): PASTE_URL_HERE
+- Presigned book from my private bucket (7-day expiry): https://secret-jdp5ub.s3.amazonaws.com/pg79828.txt?AWSAccessKeyId=ASIAVIA5VQ7KRWVM4LTY&Signature=Ij%2BL0Bo4p%2FBtttoTRtr5B93Ao%2Bk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2BsiiB69v7JNBhuERxCmjmaM0Wv%2BsV0XvOkMDK%2BciDJAIgP8zP1Vjb9HhenmLYAHeYbcWHTcY9q5NkMWQ4gJxpe4sqrQIIUxABGgwzNjA4Mzk0ODEzMDEiDA6TKooP2QEGT2xGtyqKAihMpDE%2B6vQfwo7JeO7u7jzOSG8bZJsdw6SWZnm0XxpmJaJDabmeq4lR2JI0CgBFlJVx22qK81iz0kx9C9cX%2BM%2B%2FxDNY%2B79VNApsp0200of06Olb%2Fp0HEZrSzYiKusQYivN9XlwVhvNo6rnK3afoZG4Szoxr6bzvTWDprf2B2CjgHrtzv%2FN%2BO0rhrUxR5X%2FKPhHiKUw8%2BDeGEXpH0L17DuC2d1l%2Fkop8rjgh%2FvL19VOEbkQcwYMzXcZ7xmzWSh%2B6nHeJxLQlvOMpBiUj%2BG34d7%2BBftMym5WHOAgHSk1yMF2heHuHFs3Ty3Ex97aMgf%2FGjP4FNngiXEyMAbNUNWaPK9qWtqNScvd1ozPgMNCw4NYGOp0BBxJP57GpqiefJSi0XFzVhGj99bgd8huoNu9EpDzzHtDdXXJlF47qdpc88xkn556JmUBHzKo6KB%2BA6JNFhIoI8%2BkQu2871PCO5Gn6i%2BgLST9AUFEgFuNwWtPqC1C57ybNvGNbbLbN0ZDCK6AFSOr%2B7RSwMOvxeuDjOFtDtW3jlP%2BLdxZCF3zX3bFJeTo%2Faf%2B7J856%2F60rkARQRRllUg%3D%3D&Expires=1793156996
 
 I would choose a public bucket when the data is meant for anyone to read, such as a shared corpus that many analyses need. I would use a presigned URL when I need to share one private file with someone for a limited time, without making the bucket public or giving them an AWS account.
 # Lab 06: Working with S3 Storage
