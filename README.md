@@ -1,3 +1,9 @@
+## My S3 buckets
+
+- Public bucket index: https://public-jdp5ub.s3.amazonaws.com/index.html
+- Presigned book from my private bucket (7-day expiry): PASTE_URL_HERE
+
+I would choose a public bucket when the data is meant for anyone to read, such as a shared corpus that many analyses need. I would use a presigned URL when I need to share one private file with someone for a limited time, without making the bucket public or giving them an AWS account.
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
